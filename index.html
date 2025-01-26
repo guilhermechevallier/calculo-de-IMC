@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculo IMC</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <div class="main-tela">
+        <h1>Calculo de IMC</h1>
+        <div class="infor">
+            <div class="infor_pt1">
+                <form action="#" id="frm1">
+                    <div class="frm1_data">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Insira seu nome" required>
+                    </div>
+                    <div class="frm1_data">
+                        <label for="idade">Idade</label>
+                        <input type="text" name="idade" id="idade" placeholder="Insira sua idade" required>
+                    </div>
+                    <div class="frm1_data">
+                        <label for="altura">Altura</label>
+                        <input type="number" name="altura" id="altura" placeholder="0.00m" step="0.01" required>
+                    </div>
+                    <div class="frm1_data">
+                        <label for="peso">Peso</label>
+                        <input type="number" name="peso" id="peso" placeholder="00.00kg" step="00.01" required>
+                    </div>
+                    <div class="sub">
+                        <input type="submit" value="Enviar" id="enviar">
+                        <input type="button" value="Limpar" id="limpar">
+                    </div>
+                </form>
+            </div>
+            <div class="calculo">
+                <h2>Resultado</h2>
+                <div class="result">
+                    <label for="resultado">resultado</label>
+                    <input type="text" name="resultado" id="resultado" placeholder="00.00 IMC" disabled>
+                    <p id="solveFinal"></p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <script src="src/script/main.js"></script>
+</body>
+</html>
