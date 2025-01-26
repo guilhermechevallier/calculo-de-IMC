@@ -117,9 +117,6 @@ h1{
 }
 /* responsividade*/
 @media (max-width: 1024px){
-    body{
-        height: 110vh;
-    }
     .main-tela{
         width: 90%;
         height: auto;
